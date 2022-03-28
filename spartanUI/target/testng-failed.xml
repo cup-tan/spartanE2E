@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <test thread-count="5" name="My Regression(failed)">
+    <classes>
+      <class name="spartan.testbase.spartanUIPage.SpartanAddDataTest">
+        <methods>
+          <include name="addNewData"/>
+          <include name="setUp"/>
+          <include name="verifyNewSpartanData"/>
+        </methods>
+      </class> <!-- spartan.testbase.spartanUIPage.SpartanAddDataTest -->
+      <class name="spartan.testbase.spartanUIPage.SpartanEditTest3">
+        <methods>
+          <include name="addSpartanTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- spartan.testbase.spartanUIPage.SpartanEditTest3 -->
+      <class name="spartan.testbase.spartanUIPage.GetOneSpartanTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getSpartanTest"/>
+        </methods>
+      </class> <!-- spartan.testbase.spartanUIPage.GetOneSpartanTest -->
+      <class name="spartan.testbase.spartanUIPage.SpartanEditTest2">
+        <methods>
+          <include name="setUp"/>
+          <include name="addSpartanTest"/>
+        </methods>
+      </class> <!-- spartan.testbase.spartanUIPage.SpartanEditTest2 -->
+    </classes>
+  </test> <!-- My Regression(failed) -->
+</suite> <!-- Failed suite [Regression] -->
