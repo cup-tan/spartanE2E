@@ -1,0 +1,139 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-30T16:24:07.772Z",
+        "line": 5,
+        "name": "user should be able to create a task",
+        "description": "",
+        "id": "task-module;user-should-be-able-to-create-a-task",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "go to crm login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "should be clickable task module on homePage",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@first"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-30T16:24:07.876Z",
+        "line": 16,
+        "name": "user should be created new task",
+        "description": "",
+        "id": "task-module;user-should-be-created-new-task;|email|;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "should be written in thing to do",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click high priority checkBox",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click addMore and add \"\u003cemail\u003e\"",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@second"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-30T16:24:07.882Z",
+        "line": 18,
+        "name": "",
+        "description": "",
+        "id": "task-module;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "click send Button",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "verify new task if it is displayed on home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Task module",
+    "description": "",
+    "id": "task-module",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/crm24.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

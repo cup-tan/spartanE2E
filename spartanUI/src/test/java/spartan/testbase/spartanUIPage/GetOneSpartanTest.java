@@ -37,8 +37,6 @@ public class GetOneSpartanTest {
     @Test
     public void getSpartanTest(){
 
-
-
         String payLoad = "{\n" +
                 "    \"name\" : \"Sari\",\n" +
                 "    \"gender\" : \"Male\",\n" +
@@ -68,13 +66,5 @@ public class GetOneSpartanTest {
         spartanId = response.jsonPath().getInt("data.id");
         System.out.println("spartanId = " + spartanId);
 
-
     }
-
-
-
-
-
-
-
 }
